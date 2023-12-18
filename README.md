@@ -1,13 +1,19 @@
 # Polygon-Map-Generation-UE4-CPP
- 
-Created for Unreal Engine 4.21
+
+
+
+**Created for Unreal Engine 4.21:** 
+_**I actually finished this project 2 years ago but I didn't upload it on GitHub. So here it is.**_
+
+
+
 ![50578306-17d8b880-0ded-11e9-8b8d-b7641fcd7479](https://github.com/architJanugade/Polygon-Map-Generation-UE4-CPP/assets/48153450/ba563645-7f01-49e0-a09d-e06e8feb980b)
 
 This is a port of the JavaScript code of Red Blob Games' Polygonal Map Generation for Games.
 
 This port is written in C++ and designed to work in Unreal Engine 4 using the Unreal Engine 4 "Plugin" system. This port works fully with games written in C++ as well as games that use Unreal Engine 4's "Blueprint" system.
 
-It supports Unreal Engine version 4.21.x; you can probably use it for earlier/later versions of the Unreal Engine, but you may have to make slight modifications.
+It supports Unreal Engine version 4.21.x; You can probably use it for earlier/later versions of the Unreal Engine, but you may have to make slight modifications.
 
 ![50556436-f0b7a500-0c8d-11e9-92fe-0da8a22dbee8](https://github.com/architJanugade/Polygon-Map-Generation-UE4-CPP/assets/48153450/7cdd5296-085c-4fd7-81cf-430a74110706)
 ![50556433-f0b7a500-0c8d-11e9-8636-21dc94e46699](https://github.com/architJanugade/Polygon-Map-Generation-UE4-CPP/assets/48153450/999242fd-d71b-4a44-bf3c-839cf5da1156)
