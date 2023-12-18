@@ -62,3 +62,13 @@ Once you have the project set up, you should be able to see it in the sidebar of
 The "C++ Classes" folder contains, well, the C++ classes. You can right-click on them to create a new Blueprint or C++ class from the classes listed in that folder, or you can just do it the old-fashioned way, like you would inherit from Unreal's Actor class.
 
 The "Content" folder contains a bunch of content that can help you when making your own version of the plugin. If you wanted to, you could delete these files, but they give examples on how to set up a map generator and what the different classes in the plugin actually do.
+
+
+**Credits:**
+The original code was released under the Apache 2.0 license; this C++ port of the code is also released under the Apache 2.0 license. Again, this was based on the mapgen2 repository.
+
+Also included in this code is a port of the DualMesh library; DualMesh is also licensed under Apache 2.0.
+
+Poisson Disc Sampling is created using code from the Random Distribution Plugin and used under the Apache 2.0 license.
+
+Delaunay Triangulation is created using the MIT-licensed Delaunator and made accessible through a number of Unreal helper functions. Something that's fairly annoying: Delaunay Triangulation is built into the engine, but is only accessible from the Unreal Editor. The data structures aren't exposed to other modules or Blueprint, so you can't use it without linker errors when shipping your game. The Unreal Engine code has a different license, so a third-party library has to be used.
